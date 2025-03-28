@@ -22,7 +22,7 @@ const AdminPage = () => {
                     </div>
                     {/* ATTENDANCE CHART */}
                     <div className="w-full lg:w-2/3 h-[450px]">
-                        <AttendanceChart />
+                        <AttendanceChart/>
                     </div>
                 </div>
                 {/* BOTTOM CHART */}
