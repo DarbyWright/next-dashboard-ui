@@ -1,7 +1,7 @@
 import Pagination from "@/components/Pagination"
 import Table from "@/components/Table"
 import TableSearch from "@/components/TableSearch"
-import { classesData, parentsData, role, subjectsData } from "@/lib/data"
+import { classesData, role } from "@/lib/data"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -15,7 +15,7 @@ type Class = {
 
 const columns = [
   {
-    header:"Class Name", accessor:"name"
+    header:"Class", accessor:"name"
   },
   {
     header:"Capacity", accessor:"capacity", className:"hidden md:table-cell"
